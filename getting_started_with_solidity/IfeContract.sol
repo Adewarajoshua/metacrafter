@@ -7,13 +7,14 @@ pragma solidity 0.8.22;
  */
 contract IfeContract {
 
-    // Public variables
+   // Mapping variable
+    mapping(address => uint) public balance;
+
+    // Global variables
+uint public totalSupply = 0;
     string public tokenName = 'IfeToken';
     string public tokenSymbol = 'IFT';
-    uint public totalSupply = 0;
-
-    // Mapping variable
-    mapping(address => uint) public balance;
+    
 
     /**
      * @dev Burns tokens, reducing the total supply and sender's balance.
