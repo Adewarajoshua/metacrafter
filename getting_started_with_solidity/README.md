@@ -1,4 +1,3 @@
-
 # IfeContract
 
 ## Table of Contents
@@ -76,7 +75,7 @@ pragma solidity 0.8.22;
 
 import "./IfeContract.sol";
 
-contract ExampleUsage {
+contract MyToken {
     IfeContract public ifeToken;
 
     constructor() {
