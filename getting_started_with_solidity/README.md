@@ -12,8 +12,6 @@
 6. [Usage Examples](#usage-examples)
 7. [License](#license)
 
----
-
 ## 1. Introduction <a name="introduction"></a>
 
 The IfeContract is a simple token contract implemented in Solidity, demonstrating basic functionalities such as minting and burning. This contract is designed to manage a custom token named "IfeToken" (with the symbol "IFT") on the Ethereum blockchain.
